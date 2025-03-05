@@ -113,27 +113,21 @@ body {
 }
 
 /* Hobbies */
-.hobbies-card ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.hobbies-card ul li {
+.hobbies-card h3 {
     background-color: #0a647a;
     color: white;
-    padding: 12px 18px;
-    border-radius: 30px;
+    padding: 15px 5px;
+    border-radius: 20px;
     font-weight: 600;
     font-size: 1.1rem;
+    text-align: center;
 }
 
-.hobbies-card ul li:hover {
+.hobbies-card h3:hover {
     background-color: #0a5a6e;
     cursor: pointer;
 }
 
-/* Button Hover Effects */
 .cv a:hover {
     color: #064853;
 }
@@ -166,10 +160,7 @@ body {
     .projects-card .project {
         font-size: 1rem;
     }
-    .hobbies-card ul li {
-        display: flex;
-        flex-direction: column;
-        }
+
 }
 
 @media (max-width: 576px) {
@@ -197,8 +188,8 @@ body {
     .cv .projects-card .project {
         font-size: 0.9rem;
     }
-    .hobbies-card ul li {
-    display: flex;
-    flex-direction: column;
+    .hobbies-card .item{
+      width: 50%;
     }
+  
 }
