@@ -166,6 +166,10 @@ body {
     .projects-card .project {
         font-size: 1rem;
     }
+    .hobbies-card ul li {
+        display: flex;
+        flex-direction: column;
+        }
 }
 
 @media (max-width: 576px) {
@@ -192,5 +196,9 @@ body {
 
     .cv .projects-card .project {
         font-size: 0.9rem;
+    }
+    .hobbies-card ul li {
+    display: flex;
+    flex-direction: column;
     }
 }
