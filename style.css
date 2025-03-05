@@ -15,7 +15,8 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-.cv h1, .cv h2 {
+.cv h1,
+.cv h2 {
     color: #2c3e50;
     font-weight: 700;
 }
@@ -69,12 +70,12 @@ body {
 }
 
 /* Section Card Styles */
-.cv .education-card, 
-.cv .certifications-card, 
-.cv .skills-card, 
-.cv .experience-card, 
-.cv .tools-card, 
-.cv .projects-card, 
+.cv .education-card,
+.cv .certifications-card,
+.cv .skills-card,
+.cv .experience-card,
+.cv .tools-card,
+.cv .projects-card,
 .cv .hobbies-card {
     background: #fff;
     padding: 25px;
@@ -144,6 +145,8 @@ body {
     }
 
     .profile-img {
+        display: flex;
+        flex-direction: column-reverse;
         width: 120px;
         height: 120px;
     }
