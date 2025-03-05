@@ -139,10 +139,7 @@ body {
     }
 
     .profile-img {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 120px;
-        height: 120px;
+        display: none;
     }
 
     .cv .name {
@@ -169,8 +166,7 @@ body {
     }
 
     .profile-img {
-        width: 100px;
-        height: 100px;
+        display: none;
     }
 
     .cv .name {
@@ -188,8 +184,9 @@ body {
     .cv .projects-card .project {
         font-size: 0.9rem;
     }
-    .hobbies-card .item{
-      width: 50%;
+
+    .hobbies-card .item {
+        width: 50%;
     }
-  
+
 }
