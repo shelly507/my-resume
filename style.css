@@ -119,7 +119,7 @@ body {
 }
 
 .hobbies-card ul li {
-    background-color: #16b5e6;
+    background-color: #0a647a;
     color: white;
     padding: 12px 18px;
     border-radius: 30px;
@@ -128,11 +128,66 @@ body {
 }
 
 .hobbies-card ul li:hover {
-    background-color: #022f3d;
+    background-color: #0a5a6e;
     cursor: pointer;
 }
 
 /* Button Hover Effects */
 .cv a:hover {
-    color: #043055;
+    color: #064853;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cv {
+        padding: 20px;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cv .name {
+        font-size: 2rem;
+    }
+
+    .cv h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro-card p {
+        font-size: 1rem;
+    }
+
+    .projects-card .project {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cv {
+        padding: 15px;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cv .name {
+        font-size: 1.8rem;
+    }
+
+    .cv .contact-info p {
+        font-size: 1rem;
+    }
+
+    .intro-card p {
+        font-size: 0.9rem;
+    }
+
+    .cv .projects-card .project {
+        font-size: 0.9rem;
+    }
 }
